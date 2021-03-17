@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: lavenderblush;
+}
+header img {
+  width: 50%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+nav {
+  background-color: black;
+}
+nav img {
+  width: 80px;
+  height: 90px;
+  color: chartreuse;
+}
+nav ul {
+  float: right;
+  font-size: 25px;
+  font-family: cursive;
+  font-style: italic;
+  font-variant: common-ligatures;
+}
+li:hover {
+  background-color: #666;
+  color: black;
+  border-radius: 8px;
+}
+#home,
+Home:active {
+  background-color: #666;
+  color: black;
+  border-radius: 6px;
+}
+nav ul li {
+  text-decoration: none;
+  display: inline;
+  color: white;
+}
+section article {
+  width: 43%;
+  height: auto;
+  float: left;
+  background-color: lightgrey;
+  font-style: italic;
+}
+section article h1 {
+  text-align: center;
+}
+section aside {
+  width: 57%;
+  height: auto;
+  float: right;
+  background-color: whitesmoke;
+  font-style: italic;
+}
+section aside h1 {
+  text-align: center;
+}
+footer {
+  background-color: gray;
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+  font-size: 30px;
+}
